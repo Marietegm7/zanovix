@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/node-field.B6jFA0GC.js","_astro/three.module.B6dfvgAa.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.tKKOKUQQ.js";var t=new IntersectionObserver(async n=>{for(let r of n){if(!r.isIntersecting)continue;t.unobserve(r.target);let{initNodeField:n}=await e(async()=>{let{initNodeField:e}=await import(`./node-field.B6jFA0GC.js`);return{initNodeField:e}},__vite__mapDeps([0,1]));n(r.target)}},{rootMargin:`400px 0px`});document.querySelectorAll(`[data-node-field]`).forEach(e=>t.observe(e));
